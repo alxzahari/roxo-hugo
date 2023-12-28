@@ -8,6 +8,7 @@
       padding: 150px 0 80px;
       @include tablet{
         padding: 100px 0 60px;
+        border-radius: 10px;
       }
     }
     &-header{
@@ -36,11 +37,14 @@
       @extend .site-project-item;
       &-thumb{
         @extend .site-project-item-thumb;
+          border-radius: 10px;
       }
       &-content{
+        border-radius: 10px !important;
         @extend .site-project-item-content;
         @include mobile{
           padding: 15px 25px 40px;
+          border-radius: 10px;
         }
         span{
           font-size: 14px;
@@ -52,7 +56,8 @@
           }
         }
         a.read-more{
-          color: $primary-color;
+          color: $secondary-color;
+          background-color: $primary-color;
           letter-spacing: 2px;
           @include mobile{
             transform: translateY(22px);
@@ -64,19 +69,24 @@
       img{
         max-width: 100%;
         margin-bottom: 20px;
+        border-radius: 10px !important;
       }
       .blog-title{
         font-size: 40px;
       }
+      .site-blog-post .site-blog-post-thumb img {
+        border-radius: 10px;
+      }
       .feature-image{
         margin: 20px 0 30px;
+        border-radius: 10px !important;
       }
       h2,h3,h4,h5,h6{
         margin-bottom: 15px;
       }
       blockquote{
         p{
-          color: $text-color-dark;
+          color: $text-color;
           font-size: 18px;
         }
       }

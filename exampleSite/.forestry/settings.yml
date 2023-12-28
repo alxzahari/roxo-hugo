@@ -11,9 +11,6 @@ sections:
   path: data/team.yml
   label: Team
 - type: document
-  path: data/clients.yml
-  label: Clients
-- type: document
   path: data/testimonial.yml
   label: Testimonials
 - type: document

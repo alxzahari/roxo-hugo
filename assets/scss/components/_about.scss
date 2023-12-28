@@ -1,7 +1,6 @@
 .site-about{
   &-header{
     padding-top: 80px;
-    background-color: $gray;
     @include mobile{
       padding-top: 60px;
       text-align: center;
@@ -16,14 +15,15 @@
     background: $primary-color;
     width: 40%;
     padding: 70px 38px;
+    border-radius: 10px;
     @include desktop{
       width: 100%;
       margin-bottom: 20px;
     }
     h1{
-      color: $white;
+      color: $secondary-color;
       font-weight: 400;
-      font-size: 25px;
+      font-size: 40px;
       line-height: 60px;
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -37,8 +37,9 @@
       padding: 0 38px;
     }
     p{
-      font-size: 25px;
-      font-weight: 300;
+      font-size: 20px;
+      font-weight: bold;
+      font-style: italic;
       margin-bottom: 0;
     }
   }

@@ -8,6 +8,7 @@
   &-title{
     font-size: 70px;
     font-weight: 700;
+    color: $secondary-color;
     letter-spacing: 10px;
     margin-bottom: 60px;
     @include desktop{
@@ -40,6 +41,7 @@
       .btn{
         @include mobile{
           display: block;
+          color: $text-color;
           width: 90%;
           margin: 0 auto;
         }

@@ -78,9 +78,6 @@ h6 {
 .btn-sm {
   padding: 15px 40px !important; }
 
-.btn-sm-rounded {
-  border-radius: 40px; }
-
 .btn-primary {
   background: #EAA4A4;
   color: #fff; }
@@ -665,22 +662,22 @@ textarea.form-control {
     font-weight: 300;
     margin-bottom: 0; }
 
-.site-expertise {
+.site-purpose {
   padding: 100px 0;
   background: #F7F9FF; }
-  .site-expertise-list {
+  .site-purpose-list {
     padding: 0;
     margin: 10px 0 0 20px; }
     @media (max-width: 575px) {
-      .site-expertise-list {
+      .site-purpose-list {
         text-align: center;
         margin: 0; } }
-    .site-expertise-list li {
+    .site-purpose-list li {
       list-style: none;
       font-size: 25px;
       font-weight: 300;
       color: #00113E; }
-      .site-expertise-list li:not(:last-child) {
+      .site-purpose-list li:not(:last-child) {
         margin-bottom: 10px; }
 
 .site-client {

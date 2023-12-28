@@ -8,11 +8,13 @@
     &-thumb{
       img{
         width: 100%;
+        border-radius: 10px;
       }
     }
     &-content{
       position: absolute;
-      background: $gray;
+      background: $primary-color;
+      border-radius: 10px;
       width: 100%;
       padding: 45px 50px;
       bottom: 0;
@@ -22,19 +24,19 @@
         padding-bottom: 75px;
       }
       span{
-        font-family: $secondary-font;
-        color: $primary-color;
+        font-family: $primary-font;
+        color: $secondary-color;
         display: block;
         margin-bottom: 10px;
       }
       h3{
         margin-bottom: 0;
         a{
-          color: $text-color-dark;
+          color: $text-color;
           transition: 0.3s ease;
           &:hover{
             text-decoration: none;
-            color: $primary-color;
+            color: $secondary-color;
           }
         }
       }
@@ -72,7 +74,7 @@
     margin-top: 30px;
     display: inline-block;
     position: relative;
-    font-family: $secondary-font;
+    font-family: $primary-font;
     font-size: 18px;
     font-weight: 500;
     color: $primary-color;
@@ -88,8 +90,9 @@
       transform: scaleX(0);
     }
     &:hover{
-      color: $primary-color;
+      color: $secondary-color;
       text-decoration: none;
+      border-radius: 10px;
       &::before{
         transform: scaleX(1);
         transform-origin: left;
@@ -98,7 +101,8 @@
   }
   &-header{
     padding: 170px 0 100px;
-    background: $gray;
+    background: $primary-color;
+    border-radius: 10px;
     @include tablet{
       padding: 120px 0 80px;
     }
@@ -107,6 +111,7 @@
         font-size: 55px;
         span{
           color: $primary-color;
+          border-radius: 10px;
         }
         @include tablet{
           font-size: 40px;
@@ -124,7 +129,7 @@
         display: block;
         font-size: 30px;
         font-weight: 300;
-        color: $text-color-dark;
+        color: $text-color;
         margin-bottom: 20px;
         @include tablet{
           font-size: 25px;
@@ -132,6 +137,7 @@
       }
       img{
         width: 66px;
+        border-radius: 10px;
         @include tablet{
           width: 40px;
         }
@@ -154,14 +160,14 @@
           border-radius: 0;
           border: none;
           padding: 12px 20px;
-          color: $text-color-dark;
+          color: $secondary-color;
           font-weight: 300;
           transition: all 0.3s ease;
         }
         &.active{
           .page-link{
             background-color: $primary-color;
-            color: $white;
+            color: $secondary-color;
           }
         }
         &.disabled{
@@ -185,10 +191,12 @@
     }
     &-image{
       display: flex;
+      border-radius: 10px;
       flex-wrap: wrap;
       margin-bottom: 30px;
       img{
         width: 48%;
+        border-radius: 10px;
         &:nth-child(2n){
           margin-left: auto;
         }
@@ -208,7 +216,7 @@
         position: relative;
         font-size: 24px;
         font-weight: 300;
-        color: $text-color-dark;
+        color: $secondary-color;
         display: flex;
         margin-left: auto;
         justify-content: flex-end;
@@ -218,6 +226,7 @@
         .link-area{
           display: inline-block;
           overflow: hidden;
+          color: $text-color;
           span{
             position: relative;
             display: block;
@@ -249,6 +258,7 @@
       }
       img{
         filter: invert(1);
+        border-radius: 10px;
         transform: rotate(90deg);
         margin-left: 30px;
       }

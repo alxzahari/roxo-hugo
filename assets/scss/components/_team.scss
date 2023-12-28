@@ -1,7 +1,8 @@
 .site-team{
   padding: 100px 0;
   &-member{
-    background: $gray;
+    background: $primary-color;
+    border-radius: 10px;
     padding: 65px 30px 30px;
     margin: 50px 0 30px;
     position: relative;
@@ -11,7 +12,7 @@
     &-image{
       position: absolute;
       width: 100px; height: 100px;
-      border-radius: 50%;
+      border-radius: 10px;
       overflow: hidden;
       left: 30px; top: 0;
       transform: translateY(-50%);
@@ -23,13 +24,13 @@
     &-content{
       h3{
         font-size: 20px;
-        color: $primary-color;
+        color: $secondary-color;
         margin-bottom: 10px;
         font-weight: 500;
       }
       p{
         font-size: 18px;
-        color: $text-color-dark;
+        color: $text-color;
         margin-bottom: 20px;
         font-weight: 300;
       }
@@ -40,7 +41,7 @@
       li{
         display: inline-block;
         a{
-          color: $text-color-dark;
+          color: $text-color;
         }
         &:not(:last-child){
           margin-right: 10px;
