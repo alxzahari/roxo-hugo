@@ -4,6 +4,7 @@
   background: $primary-color;
   .section-title{
     margin-bottom: 30px;
+    color: $text-color;
   }
   @include mobile{
     padding: 50px 0;
