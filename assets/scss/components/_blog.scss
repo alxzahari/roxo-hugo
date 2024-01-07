@@ -1,6 +1,6 @@
 .site{
   &-blog{
-    @extend .site-project;
+    @extend .site-markets;
     @include mobile{
       padding: 70px 0;
     }
@@ -32,17 +32,17 @@
     }
     &-pagination{
       margin-bottom: 150px;
-      @extend .site-project-pagination;
+      @extend .site-markets-pagination;
     }
     &-post{
-      @extend .site-project-item;
+      @extend .site-markets-item;
       &-thumb{
-        @extend .site-project-item-thumb;
+        @extend .site-markets-item-thumb;
           border-radius: 10px;
       }
       &-content{
         border-radius: 10px !important;
-        @extend .site-project-item-content;
+        @extend .site-markets-item-content;
         @include mobile{
           padding: 15px 25px 40px;
           border-radius: 10px;
